@@ -259,7 +259,7 @@ Now, install in your local machine the postgress client `psql` and execute the h
 
 ```
 heroku pg:psql -a <<nomgrup>-ticketmonster>
-INSERT INTO accounts VALUES(1,'admin','THE_HASH....',200);
+INSERT INTO accounts VALUES('admin','THE_HASH....',1,200);
 ```
 
 
